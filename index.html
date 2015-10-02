@@ -82,10 +82,10 @@
 					
 					for (var i in dates) {
 						//Get Totals
-						var avgSent = (totalSent[dates[i]] / uniqueSent["$custom_event:53263"][dates[i]])
+						var avgSent = (totalSent[dates[i]] / uniqueSent["Invite"][dates[i]])
 						console.log(avgSent)
 
-						var totalAccepted_Calc = totalAccepted["$custom_event:53265"][dates[i]]
+						var totalAccepted_Calc = totalAccepted["Registration"][dates[i]]
 						var totalSent_Calc = totalSent[dates[i]]
 						//Percent Conversion
 						var conversion = (totalAccepted_Calc / totalSent_Calc)
